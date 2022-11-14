@@ -1,0 +1,11 @@
+    VETERINARY PROJECT
+-I create simple veterinary application with spring+thymeleaf.
+-I create two entity class.(Animal and Owner).This relation with OneToMany.One owner has more than one pet.
+-Each of these classes has a controller.
+-I have associated model and view in controller classes with thymeleaf.
+-These controller classes have listing, adding, updating and deleting methods.
+-I used postgres as database. Because I will deploy my project on heroku. I chose postgres because postgres is free in heroku.
+-This database has two table for project.(owner and animal table).
+-I create two repository and these repositories.
+-These repositories allowed me to relate Jpa to database.
+-I created 4 view classes for the view layer and made a simple design for the frontend.
